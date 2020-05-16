@@ -1,0 +1,21 @@
+{
+  "name": "jest_example",
+  "version": "1.0.0",
+  "description": "Testing, JavaScript, JEST",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "JS",
+    "JavaScript",
+    "Jest",
+    "Unit",
+    "testing"
+  ],
+  "author": "pB",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
