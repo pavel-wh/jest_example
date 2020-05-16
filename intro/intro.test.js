@@ -2,7 +2,9 @@ const {sum, nativeNull} = require('./intro')
 
 describe('Sum function:', () => {
   test('should return sum of two values',  () => {
+    // For primitives - strings, numbers and etc.
     expect(sum(1, 3)).toBe(4)
+    // For complex data structures
     expect(sum(1, 3)).toEqual(4)
   })
   
